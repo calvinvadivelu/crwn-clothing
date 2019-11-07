@@ -1,7 +1,6 @@
 import React from 'react';
 import './collection-item.styling.scss';
 const CollectionItem = (props) => {
-    console.log('props :', props);
     return (
         <div className="collection-item">
             <div 
