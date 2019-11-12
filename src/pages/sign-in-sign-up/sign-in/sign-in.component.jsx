@@ -12,8 +12,8 @@ class SignIn extends Component {
         this.state={
             email: '',
             password:''
-            }
         }
+    }
     handleSubmit = event => {
         this.setState({email: '', password: ''})
     }
