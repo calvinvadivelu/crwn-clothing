@@ -1,5 +1,3 @@
-import { defaultCipherList } from "constants"
-
 const INITIAL_STATE = {
     currentUser : null
 }
