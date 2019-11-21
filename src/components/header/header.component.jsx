@@ -9,7 +9,6 @@ import './header.styling.scss';
 import { auth } from '../../firebase/firebase.utils';
 
 const Header = ({ currentUser, cartHidden }) => {
-    console.log('cartHidden :', cartHidden);
     return (
         <div className="header">
             <Link to='/'>
