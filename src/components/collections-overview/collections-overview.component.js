@@ -5,7 +5,6 @@ import { selectCollectionsForPreview } from '../../redux/shop/shop.selector';
 import CollectionPreview from '../../components/collection-preview/collection-preview.component';
 
 const CollectionOverview = ({ collections }) => {
-    console.log('collections :', collections);
     return (
     <div className='collections-overview'>
         {collections.map(({id, ...otherSectionItems}) => (
